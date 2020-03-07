@@ -1,0 +1,136 @@
+
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url("../images/47952965-seamless-vintage-floral-background-seamless-pattern-vector-floral-pattern-in-doodle-style-with-flowe.jpg");
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+}
+.entrance__section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/47952965-seamless-vintage-floral-background-seamless-pattern-vector-floral-pattern-in-doodle-style-with-flowe.jpg");
+    background-size: cover;
+}
+.entrance__section, .middle__section, .gallery__section{
+    height: 100vh;
+    width: 100%;
+}
+.middle__section{
+   /* background-image: url("../images/background__middle.jpg");
+
+    background-color: darkorange;
+*/
+    display: none;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+    animation: opa 1.5s ease-in;
+    padding: 3em;
+}
+
+@keyframes opa {
+    0% { opacity: 0;}
+    10% {opacity: 0.1; }
+    20% {opacity: 0.2;}
+    30% {opacity: 0.3;}
+    40% {opacity: 0.4; }
+    50% {opacity: 0.5;}
+    60% {opacity: 0.6;}
+    70% {opacity: 0.7;}
+    80% {opacity: 0.8;}
+    90% {opacity: 0.9;}
+    100% {opacity: 1;}
+
+}
+
+img{
+    width: 80%;
+    border-radius: 8px;
+}
+.person__card{
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 8px;
+    margin-right: 2em;
+    background: wheat;
+}
+.person__card h3{
+    font-size: 25px;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+}
+.person__card hr{
+    margin-bottom: 1em;
+    height: 3px;
+    background: rgba(0, 0, 0, 0.73);
+    border: none;
+    border-radius: 29px
+}
+
+
+/*BUTTON*/
+a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.btn {
+    z-index: 90000;
+    position: relative;
+    letter-spacing: 0.25em;
+    margin: 0 auto;
+    padding: 1rem 2.5rem;
+    background: transparent;
+    outline: none;
+    font-size: 28px;
+    color: #fff;
+    text-shadow: 1px 1px 3px black;
+}
+.btn::after, .btn::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    -webkit-transform: skewX(30deg);
+    transform: skewX(30deg);
+    -webkit-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    z-index: -2;
+}
+.btn::before {
+    background-color: #F44336;
+    top: -1rem;
+    left: -2rem;
+}
+.btn::after {
+    background-color: #E91E63;
+    top: 1rem;
+    left: 14.5rem;
+}
+.btn:hover::before, .btn:hover::after {
+    top: 0;
+    -webkit-transform: skewx(0deg);
+    transform: skewx(0deg);
+}
+.btn:hover::after {
+    left: -0.1rem;
+    border-radius: 8px 0 0 8px;
+}
+.btn:hover::before {
+    border-radius: 0 8px 8px 0;
+    left: 15rem;
+}
