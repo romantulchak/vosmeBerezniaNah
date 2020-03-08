@@ -1,6 +1,7 @@
 'use strict';
 let middle__section = document.getElementById("middle__section");
 let video__section = document.getElementById("video");
+let vds = document.getElementsByClassName("vds");
 let isFirstTime = true;
 function displayMiddleSection(){
 
@@ -18,7 +19,11 @@ function displayMiddleSection(){
 }
 
 function f() {
-    video__section.style.display = "flex";
+ 
+        video__section.style.display = "flex";
+
+
+    vds[0].src += "1";
 }
 
 
@@ -124,3 +129,9 @@ function f() {
     showButton.addEventListener('click', showClickHandler);
     closeButton.addEventListener('click', closeClickHandler);
 }());
+
+
+
+function url() {
+    return 'https://www.youtube.com/embed/huyiy74zw-s?autoplay=1';
+}

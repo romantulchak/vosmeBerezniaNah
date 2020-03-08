@@ -27,15 +27,12 @@ a{
     width: 100%;
 }
 .middle__section, .gallery__section{
-   /* background-image: url("../images/background__middle.jpg");
 
-    background-color: darkorange;
-*/
     display: none;
 }
 .gallery__section{
       justify-content: center;
-    align-items: center;
+      align-items: center;
 }
 .flex{
     display: grid;
