@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77a34deb-37eb-49c9-94b0-e22cd7ffcd86" name="Default Changelist" comment="" />
+    <list default="true" id="77a34deb-37eb-49c9-94b0-e22cd7ffcd86" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/denysD/cvbcvbcvbcvb.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/denysD/ddd.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/denysD/index.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/denysD/xcvxc.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/denyslox/asdas.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/denyslox/xcvxcvxcvbv.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/denyslox/zxcvcx.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/denyslox/zzz.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/nazar/indebcvbcvx.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/nazar/nbvnb.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/nazar/sdfsdfsdcv.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/nazar/z.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/roman/47952965-seamless-vintage-floral-background-seamless-pattern-vector-floral-pattern-in-doodle-style-with-flowe.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/roman/fdsfsdf.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/roman/index.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/roman/insdfsddex.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/vlad/47952965-seamless-vintage-floral-background-seamless-pattern-vector-floral-pattern-in-doodle-style-with-flowe.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/vlad/sdfsddsfsdgdsfsdf.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/vlad/sdfsdfsdf.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/vlad/sdfsdfsdfsd.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/vlad/zamina.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/xcvxc.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +44,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1YohJnW544Ci8WJibyabL4cd3Nk" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -25,15 +56,18 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/images/gallery" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/images/gallery" />
       <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$/images/nazar" />
+      <recent name="$PROJECT_DIR$/images/vlad" />
+      <recent name="$PROJECT_DIR$/images/gallery" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -47,10 +81,23 @@
       <option name="presentableId" value="Default" />
       <updated>1583614784155</updated>
       <workItem from="1583614789685" duration="7213000" />
+      <workItem from="1583654133338" duration="3375000" />
+      <workItem from="1583661430252" duration="3825000" />
+      <workItem from="1583666020373" duration="3098000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="339" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1583666020356">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="339" y="225" key="com.intellij.ide.util.TipDialog/0.27.1366.741@0.27.1366.741" timestamp="1583666020356" />
+    <state x="347" y="174" key="run.anything.popup" timestamp="1583664728409">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="347" y="174" key="run.anything.popup/0.27.1366.741@0.27.1366.741" timestamp="1583664728409" />
   </component>
 </project>

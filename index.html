@@ -4,94 +4,175 @@
     <meta charset="UTF-8">
     <title>Eight Bereznia nah</title>
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="js/intro.js-2.9.3/introjs.css">
 </head>
 <body>
     <section class="entrance__section">
-        <a class="btn" href="#middle__section" onclick="displayMiddleSection()">Клоун Production</a>
+
+            <a class="btn"  href="#middle__section" onclick="displayMiddleSection()">Клоун Production</a>
+
     </section>
+
+
+
+    <!---->
+    <dialog class="mdl-dialog" id="modal-example">
+        <div class="mdl-dialog__content">
+           <div class="gallery__grid">
+               <div class="card__img">
+                   <img src="images/vlad/47952965-seamless-vintage-floral-background-seamless-pattern-vector-floral-pattern-in-doodle-style-with-flowe.jpg" alt="">
+               </div>
+               <div class="card__img">
+                   <img src="images/vlad/sdfsddsfsdgdsfsdf.jpeg" alt="">
+               </div>
+               <div class="card__img">
+                   <img src="images/vlad/sdfsdfsdf.jpeg" alt="">
+               </div>
+               <div class="card__img">
+                   <img src="images/vlad/zamina.jpeg" alt="">
+               </div>
+           </div>
+        </div>
+        <div class="mdl-dialog__actions mdl-dialog__actions--full-width">
+            <button type="button" class="mdl-button">Close</button>
+        </div>
+    </dialog>
+
+
+    <dialog class="mdl-dialog" id="modal-example1">
+        <div class="mdl-dialog__content">
+            <div class="gallery__grid">
+                <div class="card__img">
+                    <img src="images/roman/47952965-seamless-vintage-floral-background-seamless-pattern-vector-floral-pattern-in-doodle-style-with-flowe.jpg" alt="">
+                </div>
+                <div class="card__img">
+                    <img src="images/roman/fdsfsdf.jpeg" alt="">
+                </div>
+                <div class="card__img">
+                    <img src="images/roman/index.jpeg" alt="">
+                </div>
+                <div class="card__img">
+                    <img src="images/roman/insdfsddex.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="mdl-dialog__actions mdl-dialog__actions--full-width">
+            <button type="button" class="mdl-button">Close</button>
+        </div>
+    </dialog>
+
+
+    <dialog class="mdl-dialog" id="modal-example2">
+        <div class="mdl-dialog__content">
+            <div class="gallery__grid">
+                <div class="card__img">
+                    <img src="images/denyslox/asdas.jpeg" alt="">
+                </div>
+                <div class="card__img">
+                    <img src="images/denyslox/xcvxcvxcvbv.jpeg" alt="">
+                </div>
+                <div class="card__img">
+                    <img src="images/denyslox/zxcvcx.jpeg" alt="">
+                </div>
+                <div class="card__img">
+                    <img src="images/denyslox/zzz.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="mdl-dialog__actions mdl-dialog__actions--full-width">
+            <button type="button" class="mdl-button">Close</button>
+        </div>
+    </dialog>
+
+
+    <dialog class="mdl-dialog" id="modal-example3">
+        <div class="mdl-dialog__content">
+            <div class="gallery__grid">
+                <div class="card__img">
+                    <img src="images/nazar/sdfsdfsdcv.jpeg" alt="">
+                </div>
+                <div class="card__img">
+                    <img src="images/nazar/z.jpeg" alt="">
+                </div>
+                <div class="card__img">
+                    <img src="images/nazar/indebcvbcvx.jpeg" alt="">
+                </div>
+                <div class="card__img">
+                    <img src="images/nazar/nbvnb.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="mdl-dialog__actions mdl-dialog__actions--full-width">
+            <button type="button" class="mdl-button">Close</button>
+        </div>
+    </dialog>
+
+    <dialog class="mdl-dialog" id="modal-example4">
+        <div class="mdl-dialog__content">
+            <div class="gallery__grid">
+                <div class="card__img">
+                    <img src="images/denysD/index.jpeg" alt="">
+                </div>
+                <div class="card__img">
+                    <img src="images/denysD/cvbcvbcvbcvb.jpeg" alt="">
+                </div>
+                <div class="card__img">
+                    <img src="images/denysD/ddd.jpeg" alt="">
+                </div>
+                <div class="card__img">
+                    <img src="images/denysD/xcvxc.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="mdl-dialog__actions mdl-dialog__actions--full-width">
+            <button type="button" class="mdl-button">Close</button>
+        </div>
+    </dialog>
     <section id="middle__section" class="middle__section">
-        <h1>Seks</h1>
+        <h1 class="sex">Seks</h1>
         <div class="flex">
-            <div class="person__card">
+            <div id="vlad" onclick="dialog(4)" data-step="1" data-intro="VLADDDDDDDDDd" class="vlad person__card">
                 <h3>Vlad</h3>
                 <hr>
-                <img src="images/photo_2020-03-07_22-26-35.jpg" alt="">
             </div>
-            <div class="person__card">
+            <div onclick="dialog(2)" id="roman" data-step="2" data-intro="romanlox" class="roman person__card">
                 <h3>Roma</h3>
                 <hr>
-                <img src="images/photo_2020-03-07_22-26-45.jpg" alt="">
             </div>
-           <div class="person__card">
+           <div onclick="dialog(3)" id="denys" data-step="3" data-intro="denyslox" class="denys person__card">
                <h3>Denys D</h3>
                <hr>
-               <img src="images/photo_2020-03-07_23-21-36.jpg" alt="">
+
            </div>
-            <div class="person__card">
-                <h3>Denys D</h3>
+            <div onclick="dialog(4)" id="nazar" data-step="4" data-intro="nazarlox" class="nazar person__card">
+                <h3>Nazar</h3>
                 <hr>
-                <img src="images/photo_2020-03-07_23-25-53.jpg" alt="">
+
 
             </div>
-        </div>
-    </section>
-
-    <section class="gallery__section">
-        <h2>Gallery</h2>
-        <div class="grid">
-            <div>
-                <img src="images/gallery/photo_2020-03-07_23-21-36.jpg" height="1280" width="960"/></div>
+            <div onclick="dialog(5)" id="denysD" data-step="5" data-intro="nazarlox" class="denysD person__card">
+                <h3>Denys </h3>
+                <hr>
 
 
-        <div>
-            <img src="images/gallery/photo_2020-03-07_23-25-53.jpg" height="1280" width="960"/></div>
-        <div>
-            <img src="images/gallery/photo_2020-03-07_23-55-18.jpg" height="1280" width="960"/></div>
-        <div>
-
-            <img src="images/gallery/photo_2020-03-07_23-55-20.jpg" height="1280" width="720"/></div>
-        <div>
-
-            <img src="images/gallery/photo_2020-03-07_23-55-21.jpg" height="1280" width="720"/></div>
-        <div>
-
-            <img src="images/gallery/photo_2020-03-07_23-55-23.jpg" height="1280" width="960"/></div>
-        <div>
-
-            <img src="images/gallery/photo_2020-03-07_23-55-24.jpg" height="1280" width="960"/></div>
-        <div>
-
-            <img src="images/gallery/photo_2020-03-07_23-55-25.jpg" height="1280" width="960"/></div>
-        <div>
-
-            <img src="images/gallery/photo_2020-03-07_23-55-26.jpg" height="1280" width="720"/></div>
-        <div>
-
-            <img src="images/gallery/photo_2020-03-07_23-55-28.jpg" height="1280" width="960"/></div>
-        <div>
-
-            <img src="images/gallery/photo_2020-03-07_23-55-29.jpg" height="1136" width="640"/></div>
-        <div>
-
-            <img src="images/gallery/photo_2020-03-07_23-55-30.jpg" height="1280" width="960"/></div>
-        <div>
-
-            <img src="images/gallery/photo_2020-03-07_23-55-32.jpg" height="1280" width="960"/></div>
-        <div>
-
-            <img src="images/gallery/photo_2020-03-07_23-55-33.jpg" height="959" width="1280"/></div>
-        <div>
-
-            <img src="images/gallery/photo_2020-03-07_23-55-35.jpg" height="1280" width="960"/></div>
-        <div>
-
-            <img src="images/gallery/photo_2020-03-07_23-55-36.jpg" height="1280" width="960"/></div>
+            </div>
 
         </div>
-
+        <a href="#video" onclick="f()" class="btn7">
+            End
+        </a>
 
     </section>
 
+    <section id="video" class="gallery__section">
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/huyiy74zw-s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </section>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/intro.js-2.9.3/intro.js"></script>
     <script src="js/index.js"></script>
+    <script src="js/hints.js"></script>
 </body>
 </html>
